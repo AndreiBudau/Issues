@@ -10,14 +10,14 @@ class SumaMatrices{
 		* @PARAM FILAS ENTERO DE LAS FILAS DE LA MATRIZ
 		* @PARAM COLUMNAS ENTERO  DE LA S COLUMNAS DE LA MATRIZ
 		*/
-		int filas=pedirDimension("Introduce el numero de filas"), columnas=pedirDimension("Introduce el numero de columnas");
+		private int filas=pedirDimension("Introduce el numero de filas"), columnas=pedirDimension("Introduce el numero de columnas");
 
 		/**
 		* INICIALIZACIÓN DE LAS MATRICES
 		*/
-		int [] [] sumando1= new int [filas][columnas];	
-		int [] [] sumando2= new int [filas][columnas];
-		int [] [] suma= new int [filas][columnas];
+		private int [] [] sumando1= new int [filas][columnas];	
+		private int [] [] sumando2= new int [filas][columnas];
+		private int [] [] suma= new int [filas][columnas];
 		
 		crearMatriz(sumando1);
 		mostrarResultados(sumando1,"matriz 1:");
